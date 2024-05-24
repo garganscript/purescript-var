@@ -1,0 +1,16 @@
+workspace:
+  packageSet:
+    registry: 51.0.0
+  extraPackages: {}
+
+package:
+  name: var
+  dependencies:
+    - contravariant
+    - effect
+    - invariant
+    - prelude
+  test:
+    main: Test.Main
+    dependencies:
+      - console

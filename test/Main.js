@@ -1,10 +1,10 @@
 // module Test.Main
 
-exports.getCounter = function() {
+export function getCounter() {
   return global.counter || 0;
 }
 
-exports.setCounter = function(x) {
+export function setCounter(x) {
   return function() {
     global.counter = x;
     return {};
